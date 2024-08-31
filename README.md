@@ -74,7 +74,7 @@ This project demonstrates how to deploy a Node.js application on AWS Lambda usin
 1. Navigate to the **API Gateway** service in the AWS Management Console.
 
 2. Create a new REST API:
-    - Click on **Create API **
+    - Click on **Create API**
     - Select **REST API** and click on build
     - Give API Name & Click on **Create API**
 
