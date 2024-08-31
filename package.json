@@ -1,0 +1,32 @@
+{
+  "name": "nodecloudconnector",
+  "version": "1.0.0",
+  "description": "\"description\": \"A Node.js application designed for cloud deployment using AWS. The app is containerized with Docker, pushed to AWS ECR, and deployed using AWS Lambda, with API management via AWS API Gateway. This project demonstrates efficient cloud-native practices with a focus on scalability and serverless architecture.\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptranquil/NodeCloudConnector.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "AWS",
+    "Docker",
+    "ECR",
+    "Lambda",
+    "API-Gateway"
+  ],
+  "author": "Prashant Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptranquil/NodeCloudConnector/issues"
+  },
+  "homepage": "https://github.com/ptranquil/NodeCloudConnector#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
+  }
+}
